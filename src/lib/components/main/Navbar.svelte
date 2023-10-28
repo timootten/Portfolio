@@ -6,11 +6,11 @@
 	const menu = [
 		{
 			name: 'Über mich',
-			href: '#about'
+			href: '/#about'
 		},
 		{
 			name: 'Meine Projekte',
-			href: '#projects'
+			href: '/#projects'
 		},
 		{
 			name: 'Tools',
