@@ -93,7 +93,7 @@
 	</div>
 	<div class="navbar-end">
 		<DarkModeButton />
-		<a class="ml-1 sm:ml-4 btn" href="https://github.com/MirSowasVonEgal/Portfolio"
+		<a class="ml-1 sm:ml-4 btn btn-secondary" href="https://github.com/MirSowasVonEgal/Portfolio"
 			><Fa icon={faGithub} /> GitHub</a
 		>
 	</div>
