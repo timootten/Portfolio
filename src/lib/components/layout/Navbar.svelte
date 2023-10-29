@@ -1,5 +1,7 @@
 <script>
+	import Fa from 'svelte-fa';
 	import { DarkModeButton } from '..';
+	import { faGithub } from '@fortawesome/free-brands-svg-icons';
 
 	const title = "Timo's Portfolio";
 
@@ -77,7 +79,7 @@
 							<summary>{item.name}</summary>
 							<ul class="p-2">
 								{#each item.children as children}
-									<li><a href={children.href}>{children.name}</a></li>
+									<li><a class="whitespace-nowrap" href={children.href}>{children.name}</a></li>
 								{/each}
 							</ul>
 						</details>
@@ -91,6 +93,8 @@
 	</div>
 	<div class="navbar-end">
 		<DarkModeButton />
-		<a class="ml-1 sm:ml-4 btn" href="/login">Anmelden</a>
+		<a class="ml-1 sm:ml-4 btn" href="https://github.com/MirSowasVonEgal/Portfolio"
+			><Fa icon={faGithub} /> GitHub</a
+		>
 	</div>
 </div>

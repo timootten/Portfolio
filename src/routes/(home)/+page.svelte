@@ -1,4 +1,7 @@
-<h1>Welcome to SvelteKit</h1>
-<p>Visit <a href="https://kit.svelte.dev">kit.svelte.dev</a> to read the documentation</p>
-<h1 class="text-3xl font-bold underline">Hello world!</h1>
-<button class="btn btn-outline btn-xs">Button</button>
+<script>
+	import { Me } from '$lib/components';
+</script>
+
+<div class="w-full flex flex-col">
+	<Me />
+</div>
