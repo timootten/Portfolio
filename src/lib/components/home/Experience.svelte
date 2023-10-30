@@ -15,7 +15,7 @@
 	} from '$lib/components/icons';
 </script>
 
-<section class="dark:bg-gray-900 bg-gray-200 flex flex-col items-center w-full" id="about">
+<section class="dark:bg-gray-900 bg-gray-100 flex flex-col items-center w-full" id="experience">
 	<div class="container px-20 flex flex-col items-center py-12 md:py-16 md:flex-row">
 		<div class="w-full text-center md:text-left">
 			<h2 class="font-header text-4xl font-semibold uppercase text-primary sm:text-5xl lg:text-6xl">
