@@ -5,7 +5,6 @@
 
 	import Particles from 'svelte-particles';
 	import { loadFull } from 'tsparticles';
-	import { browser } from '$app/environment';
 	import { darkMode } from '$lib/utils/stores';
 
 	$: color = $darkMode ? '#ffffff' : '#000000';
