@@ -1,11 +1,13 @@
 <script lang="ts">
 	import { enhance } from '$app/forms';
 	import { getCookies } from '$lib/utils/cookie';
+	import { darkMode } from '$lib/utils/stores';
 
 	const changeTheme = () => {
 		let theme = getCookies(document.cookie).theme;
 		theme === 'light' ? (theme = 'dark') : (theme = 'light');
 		document.documentElement.setAttribute('data-theme', theme);
+		$darkMode = theme === 'dark';
 	};
 </script>
 

@@ -1,12 +1,17 @@
-<script>
+<script lang="ts">
 	import Fa from 'svelte-fa';
 	import { faGithub } from '@fortawesome/free-brands-svg-icons';
 	import { faEnvelope } from '@fortawesome/free-solid-svg-icons';
 
 	import Particles from 'svelte-particles';
 	import { loadFull } from 'tsparticles';
+	import { browser } from '$app/environment';
+	import { darkMode } from '$lib/utils/stores';
 
-	let particlesConfig = {
+	$: color = $darkMode ? '#ffffff' : '#000000';
+	$: console.log(color);
+
+	$: particlesConfig = {
 		fullScreen: { enable: false },
 		particles: {
 			number: {
@@ -17,7 +22,7 @@
 				}
 			},
 			color: {
-				value: '#ffffff'
+				value: color
 			},
 			shape: {
 				type: 'circle',
@@ -56,7 +61,7 @@
 			line_linked: {
 				enable: true,
 				distance: 150,
-				color: '#ffffff',
+				color: color,
 				opacity: 0.4,
 				width: 1
 			},
@@ -115,9 +120,9 @@
 			}
 		},
 		retina_detect: true
-	};
+	} as any;
 
-	let particlesInit = async (engine) => {
+	let particlesInit = async (engine: any) => {
 		await loadFull(engine);
 	};
 </script>
