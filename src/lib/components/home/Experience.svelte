@@ -34,10 +34,10 @@
 						<a href="https://www.github.com/" target="_blank" class="mr-4"><GitHubIcon /></a>
 					</div>
 					<h3 class="mb-2 text-xl font-bold dark:text-white">Code Managment</h3>
-					<p class="text-gray-500 dark:text-gray-400">
+					<!--<p class="text-gray-500 dark:text-gray-400">
 						Plan it, create it, launch it. Collaborate seamlessly with all the organization and hit
 						your marketing goals every month with our marketing plan.
-					</p>
+					</p>-->
 				</div>
 				<div class="mt-10">
 					<div
@@ -49,10 +49,10 @@
 						<a href="https://vuejs.org/" target="_blank" class="mr-4"><VueJSIcon /></a>
 					</div>
 					<h3 class="mb-2 text-xl font-bold dark:text-white">Frameworks</h3>
-					<p class="text-gray-500 dark:text-gray-400">
+					<!--<p class="text-gray-500 dark:text-gray-400">
 						Plan it, create it, launch it. Collaborate seamlessly with all the organization and hit
 						your marketing goals every month with our marketing plan.
-					</p>
+					</p>-->
 				</div>
 				<div class="mt-10">
 					<div
@@ -65,10 +65,10 @@
 						>
 					</div>
 					<h3 class="mb-2 text-xl font-bold dark:text-white">Betriebssysteme</h3>
-					<p class="text-gray-500 dark:text-gray-400">
+					<!--<p class="text-gray-500 dark:text-gray-400">
 						Plan it, create it, launch it. Collaborate seamlessly with all the organization and hit
 						your marketing goals every month with our marketing plan.
-					</p>
+					</p>-->
 				</div>
 			</div>
 		</div>

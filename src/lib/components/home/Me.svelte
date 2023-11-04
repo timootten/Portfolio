@@ -9,7 +9,6 @@
 	import { darkMode } from '$lib/utils/stores';
 
 	$: color = $darkMode ? '#ffffff' : '#000000';
-	$: console.log(color);
 
 	$: particlesConfig = {
 		fullScreen: { enable: false },
