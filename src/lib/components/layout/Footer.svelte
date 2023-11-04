@@ -11,11 +11,11 @@
 			class="flex flex-wrap items-center justify-center mt-1 text-sm text-gray-500 dark:text-gray-400 md:mt-0"
 		>
 			<li class="mr-4">
-				<a href="/" class="hover:underline">Impressum</a>
+				<a href="/imprint" class="hover:underline">Impressum</a>
 			</li>
-			<li class="mr-4">
+			<!--<li class="mr-4">
 				<a href="/" class="hover:underline">Datenschutz</a>
-			</li>
+			</li>-->
 		</ul>
 	</footer>
 </div>

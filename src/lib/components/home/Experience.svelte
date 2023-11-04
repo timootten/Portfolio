@@ -24,7 +24,7 @@
 			<h4 class="pt-6 font-header text-xl font-medium sm:text-2xl md:text-3xl">
 				Meine Erfahrungen mit verschiedenen Technologien
 			</h4>
-			<div class="pt-10 md:grid md:grid-cols-2 lg:grid-cols-3 md:gap-12 md:space-y-0">
+			<div class="mt-10 md:grid md:grid-cols-2 lg:grid-cols-3 md:gap-12 md:space-y-0">
 				<div>
 					<div
 						class="flex flex-row mb-4 justify-center md:justify-start rounded-full bg-primary-100 dark:bg-primary-900"
@@ -39,7 +39,7 @@
 						your marketing goals every month with our marketing plan.
 					</p>
 				</div>
-				<div>
+				<div class="mt-10">
 					<div
 						class="flex flex-row mb-4 justify-center md:justify-start rounded-full bg-primary-100 dark:bg-primary-900"
 					>
@@ -54,7 +54,7 @@
 						your marketing goals every month with our marketing plan.
 					</p>
 				</div>
-				<div>
+				<div class="mt-10">
 					<div
 						class="flex flex-row mb-4 justify-center md:justify-start items-center rounded-full bg-primary-100 dark:bg-primary-900"
 					>

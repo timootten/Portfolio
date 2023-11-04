@@ -1,4 +1,4 @@
-<script>
+<script lang="ts">
 	import Fa from 'svelte-fa';
 	import { DarkModeButton } from '..';
 	import { faGithub } from '@fortawesome/free-brands-svg-icons';
@@ -11,10 +11,10 @@
 			href: '/#about'
 		},
 		{
-			name: 'Meine Projekte',
-			href: '/#projects'
-		},
-		{
+			name: 'Meine Erfahrung',
+			href: '/#experience'
+		}
+		/*{
 			name: 'Tools',
 			children: [
 				{
@@ -22,11 +22,11 @@
 					href: '/tools/password'
 				}
 			]
-		}
-	];
+		}*/
+	] as any; /* remove when used children */
 </script>
 
-<div class="navbar bg-base-100">
+<div class="navbar bg-base-100 z-40">
 	<div class="navbar-start">
 		<!-- svelte-ignore a11y-label-has-associated-control -->
 		<div class="dropdown">
