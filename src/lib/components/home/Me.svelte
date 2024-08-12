@@ -157,8 +157,8 @@
 					y2="713"
 					gradientUnits="userSpaceOnUse"
 				>
-					<stop stop-color="#22d3ee" />
-					<stop offset="1" stop-color="#0891b2" />
+					<stop stop-color="#4A6CF7" />
+					<stop offset="1" stop-color="#1ЕЗВВ3" />
 				</linearGradient>
 			</defs>
 		</svg>
