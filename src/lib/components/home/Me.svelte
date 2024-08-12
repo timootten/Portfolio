@@ -137,7 +137,7 @@
 		</div>
 	</div>
 	<div class="flex flex-col items-center pt-8">
-		<img draggable="false" src="/img/me4.webp" alt="Me" class="h-screen m-auto z-30" />
+		<img draggable="false" width="939px" src="/img/me4.webp" alt="Me" class="h-screen m-auto z-30" />
 	</div>
 	<div class="absolute bottom-0 right-0 z-20">
 		<svg
