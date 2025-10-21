@@ -5,18 +5,17 @@
 				Über mich
 			</h2>
 			<h4 class="pt-6 text-xl font-medium sm:text-2xl md:text-3xl">
-				Ich bin Timo, ein 18-jähriger Full Stack Web Developer
+				Ich bin Timo, ein 20-jähriger Full Stack Web Developer
 			</h4>
 			<p class="pt-6 font-body leading-relaxed text-grey-20">
-				Hallo, ich bin Timo, ein 18 Jahre junger Full Stack Web Developer, der mit Leidenschaft in
+				Hallo, ich bin Timo, ein 20 Jahre junger Full Stack Web Developer, der mit Leidenschaft in
 				der Welt der Webentwicklung tätig ist.
 				<br />
 				In meiner Freizeit widme ich mich intensiv der Programmierung und habe bereits beeindruckende
 				Projekte wie die Entwicklung eines Server-Webshops und einer Webseite für einen KFZ-Fotografen
 				realisiert.
 				<br />
-				Derzeit besuche ich die 13. Klasse und mache mein Abitur mit den Leistungsfächern Informatik
-				und Mathematik.
+				Derzeit studiere ich Informatik. 
 				<br />
 				Parallel dazu administriere ich mehrere Linux-Server und verfüge über gute bis sehr gute Kenntnisse
 				in Linux und Windows.
